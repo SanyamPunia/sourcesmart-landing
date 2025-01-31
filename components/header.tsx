@@ -1,10 +1,10 @@
 "use client";
 
-import Link from "next/link";
-import { MaxWidthWrapper } from "./max-width-wrapper";
-import { useState, useEffect } from "react";
 import { poppins } from "@/app/fonts";
-import { ArrowRight, Box, Menu, Ship, X } from "lucide-react";
+import { ArrowRight, Box, Menu, X } from "lucide-react";
+import Link from "next/link";
+import { useEffect, useState } from "react";
+import { MaxWidthWrapper } from "./max-width-wrapper";
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);

@@ -1,11 +1,10 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
-import { MaxWidthWrapper } from "./max-width-wrapper";
+import { useEffect, useState } from "react";
 import { Badge } from "./badge";
-import { motion, AnimatePresence } from "framer-motion";
-import { Sparkles } from "lucide-react";
+import { MaxWidthWrapper } from "./max-width-wrapper";
 import { HoverButton } from "./ui/hover-button";
 
 const features = [
