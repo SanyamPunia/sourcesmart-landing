@@ -59,7 +59,7 @@ export default function ProductGlimpse() {
             {features.map((feature, index) => (
               <div
                 key={index}
-                className={`p-6 rounded-sm cursor-pointer transition-all duration-300 border-2 border-border ${
+                className={`p-6 rounded-sm cursor-pointer transition-all duration-300 border-2 ${
                   activeFeature === index
                     ? "bg-white border-[#019964]"
                     : "bg-zinc-100 hover:bg-zinc-100"
